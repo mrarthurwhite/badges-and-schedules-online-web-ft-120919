@@ -1,18 +1,17 @@
- def printer(array)
-   
+
+# attendees= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
+#
+def printer(array)
    array.each do |row|
       puts row  
    end
-   
- end
+end
 
 # 
 def badge_maker(name)
     return "Hello, my name is #{name}."
 end
-
-#
-# attendees= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 #
  def batch_badge_creator (attendees)
@@ -24,8 +23,7 @@ end
    return badges
  end
  
- # batch_badge_creator(attendees)
- 
+ #
  def assign_rooms(attendees)
    room_assignments = Array.new
    attendees.each_with_index do |attendee, index|
@@ -35,5 +33,6 @@ end
    return room_assignments
  end
  
+# batch_badge_creator(attendees)
 # assign_rooms(attendees)
  
